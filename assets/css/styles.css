@@ -102,10 +102,14 @@ li:hover span {
   left: 0px;
 }
 
-.in-progress-li {
-  padding: 2rem;
+.grab-handle {
+  float: right;
+  opacity: 0.4;
 }
 
+li:hover .grab-handle {
+  opacity: 1;
+}
 
 footer {
   display: flex;
